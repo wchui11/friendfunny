@@ -16,10 +16,11 @@
       </svg>
     </div>
     <!-- 问题文本 -->
-    <h1 class="question">听说你想送我一套别墅？</h1>
+    <h1 class="question">许佳敏 你是一朵太阳花</h1>
     <!-- 交互按钮 -->
     <button id="answerBtn" class="answer-btn">是的</button>
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>
