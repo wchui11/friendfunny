@@ -1,0 +1,47 @@
+/* 页面整体布局 */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fce4ec; /* 粉色背景，可自定义 */
+  font-family: "Arial", sans-serif;
+}
+
+/* 容器样式 */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* 图标样式 */
+.icon svg {
+  fill: #ec407a; /* 图标颜色，可自定义 */
+  margin-bottom: 20px;
+}
+
+/* 问题文本样式 */
+.question {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* 按钮初始样式 */
+.answer-btn {
+  background-color: #ec407a;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease; /* 动画过渡效果 */
+}
+
+/* 按钮 hover 效果（可选） */
+.answer-btn:hover {
+  opacity: 0.9;
+}
